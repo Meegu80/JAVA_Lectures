@@ -4,8 +4,8 @@ package com.javalab.oper03;
 // Scanner 클래스 import
 import java.util.Scanner;
 
-// ForEx01_02 클래스 정의
-public class ForEx01_03 {
+// ForEx01_04 클래스 정의
+public class ForEx01_04 {
     // 프로그램의 진입점인 main 메소드
     public static void main(String[] args) {
         // GUGUDAN 메소드 호출
