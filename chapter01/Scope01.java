@@ -12,9 +12,15 @@ public class Scope01 {
         if(true){
             // if 블록 내에서 x 값을 출력
             System.out.println("x = " + x);
+            // if 블록 내에서 정수형 변수 y를 선언하고 20으로 초기화
+            int y = 20;
+            // if 블록 내에서 y 값을 출력
+            System.out.println("y = " + y);
         }
 
         // if 블록 외부에서 x 값을 출력
         System.out.println("x = " + x);
+        // 컴파일 에러: y는 if 블록 외부에서 접근할 수 없음
+        // System.out.println("y = " + y);
     }
 }
