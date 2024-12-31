@@ -20,7 +20,7 @@ public class Scope01 {
 
         // if 블록 외부에서 x 값을 출력
         System.out.println("x = " + x);
-        // 컴파일 에러: y는 if 블록 외부에서 접근할 수 없음
-        // System.out.println("y = " + y);
+        // if 블록 외부에서 y 값을 출력
+        System.out.println("y = " + y);
     }
 }
