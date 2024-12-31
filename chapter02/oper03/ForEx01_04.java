@@ -12,6 +12,7 @@ public class ForEx01_04 {
         GUGUDAN();
     }
 
+    
     // 구구단을 처리하는 GUGUDAN 메소드
     static void GUGUDAN() {
         // Scanner 객체 생성
